@@ -10,7 +10,8 @@ public class Camiseta extends Zara {
 
     @Override
     public void mostrarInfo() {
-        System.out.println("Tipo de manga: " + tipoManga);
+        System.out.println("Tipo de artículo: Camiseta");
+        System.out.println("Manga de la camiseta: " + tipoManga);
         System.out.println("Talla: " + talla);
         System.out.println("Número de artículos disponibles en tienda: " + nArticulos);
     }
